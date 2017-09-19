@@ -1,0 +1,18 @@
+What happens when you initialize a repository? Why do you need to do it?
+git会创建一个仓库，以及相关的环境
+How is the staging area different from the working directory and the repository?
+What value do you think it offers?
+暂存区连接着工作区和仓库，缓存区的文件可以随时的添加和删除，而不会造成问题
+How can you use the staging area to make sure you have one commit per logical
+change?
+每次提交的时候将相同逻辑的文件添加到缓存区，然后一同进行提交
+What are some situations when branches would be helpful in keeping your history
+organized? How would branches help?
+当开发新功能时，重构时，实验新的技术时，都可以使用分支，而不用影响主分支
+How do the diagrams help you visualize the branch structure?
+
+What is the result of merging two branches together? Why do we represent it in
+the diagram the way we do?
+
+What are the pros and cons of Git's automatic merging vs. always doing merges
+manually?
